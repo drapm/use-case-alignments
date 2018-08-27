@@ -4,8 +4,7 @@ Use case alignment HZB - Marine SWE group
 This document considers two use cases for persistent identification of
 instruments: the `Use case description at HZB`_ and the `Use case
 description “marine SWE group”`_.  The metadata properties that both
-use cases suggest to be present in the are listed and aligned in the
-table below.
+use cases suggest are listed and aligned in the table below.
 
 The first two columns are the property name suggested in the HZB and
 the marine SWE use case respectively.  The third column lists the
@@ -26,6 +25,12 @@ of other properties.  This is not the case for the Marine SWE use case.
 |                       |              |           | identifies the instrument |
 |                       |              |           | instance                  |
 +-----------------------+--------------+-----------+---------------------------+
+|                       | Inventory    | 0..1      | The identifier registered |
+|                       | Number       |           | in the owner              |
+|                       |              |           | institution's device or   |
+|                       |              |           | asset catalogs or         |
+|                       |              |           | management systems        |
++-----------------------+--------------+-----------+---------------------------+
 | Name                  | Local Name   | 1..n /    | The name identifying the  |
 |                       |              | 0..1      | instrument, may be mainly |
 |                       |              |           | used locally within the   |
@@ -43,7 +48,7 @@ of other properties.  This is not the case for the Marine SWE use case.
 |                       |              |           | the Owner, such as an     |
 |                       |              |           | ISNI                      |
 +-----------------------+--------------+-----------+---------------------------+
-| Manufacturer          |              | 0..1      | Name of the manufacturer  |
+| Manufacturer          | Manufacturer | 0..1      | Name of the manufacturer  |
 |                       |              |           | that created the          |
 |                       |              |           | instrument                |
 +-----------------------+--------------+-----------+---------------------------+
