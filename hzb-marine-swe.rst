@@ -94,7 +94,7 @@ of other properties.  This is not the case for the Marine SWE use case.
 |                       |              |           |                           | InOperation,         |
 |                       |              |           |                           | Revised, ...         |
 +-----------------------+--------------+-----------+---------------------------+----------------------+
-| RelatedIdentifier     |              | 0..1      | Identifier of a related   | PID                  |
+| RelatedIdentifier     |              | 0..n      | Identifier of a related   | PID                  |
 |                       |              |           | ressource, PID            |                      |
 +-----------------------+--------------+-----------+---------------------------+----------------------+
 | relatedIdentifierType |              | 1         | Type of the PID,          | Controlled list      |
